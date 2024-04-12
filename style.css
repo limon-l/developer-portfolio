@@ -27,8 +27,12 @@ body{
     margin: 80px 15px 0px 40px;
     width: 50%;
 }
-.second-div img{
+.first-div img{
     width: 90%;
+}
+.seco-div{
+    margin: 150px 40px 0px 30px;
+    width: 50%;
 }
 #sec1{
     display: flex;
@@ -36,28 +40,20 @@ body{
     background-repeat: no-repeat;
     margin-bottom: 50px;
 }
-#sec-div{
-    margin: 80px 40px 0px 30px;
-    width: 50%;
-}
 #sec2{
     display: flex;
     background-image: url(images/top-banner1.png);
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position: right;
     margin-bottom: 50px;
-}
-.seco-div{
-    margin: 80px 40px 0px 30px;
-    width: 50%;
 }
 #sec3{
     display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-clip: border-box;
-    background-position: bottom;
-    background-position-x: right;
+    background-position: right;
+    background-position-y: bottom;
     margin-bottom: 50px;
 }
 

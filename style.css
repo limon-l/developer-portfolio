@@ -1,8 +1,11 @@
+body{
+    margin: 0;
+}
 .seymour-one-regular {
     font-family: "Seymour One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 64px;
   } 
 #name-color{
     color: blue;
@@ -10,17 +13,18 @@
 #para{
     text-align: justify;
     padding-right: 15px;
+    font-size: 18px;
 }
 .btn{
-    background-color: blue;
+    background-image: linear-gradient(blue, darkblue);
     color: white;
-    border-radius: 10px;
+    border-radius: 6px;
     font-size: 20px;
     font-weight: bolder;
     padding: 7px;
 }
 #first-div{
-    margin: 50px 15px 0px 20px;
+    margin: 80px 15px 0px 40px;
     width: 50%;
 }
 #second-div img{
@@ -28,4 +32,6 @@
 }
 #sec1{
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }

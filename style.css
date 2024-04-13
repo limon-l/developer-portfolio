@@ -7,7 +7,7 @@ body{
     font-style: normal;
     font-size: 64px;
   } 
-#name-color{
+.name-color{
     color: blue;
 }
 .para{
@@ -56,4 +56,36 @@ body{
     background-position-y: bottom;
     margin-bottom: 50px;
 }
-
+#sec4{
+    display: ;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+#div4{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    justify-content: center;
+}
+.exp{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 500px;
+    padding: 40px;
+    box-shadow: 10px 10px 20px gray;
+}
+#exp1{
+    border-left: 8px solid;
+    border-image: linear-gradient(skyblue,darkblue);
+    border-image-slice: 1;
+}
+#exp2{
+    border-left: 8px solid;
+    border-image: linear-gradient(tomato,red);
+    border-image-slice: 1;
+}
+#text{
+    font-size: 72px;
+    line-height: 0px;
+}

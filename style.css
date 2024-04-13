@@ -57,7 +57,6 @@ body{
     margin-bottom: 50px;
 }
 #sec4{
-    display: ;
     margin-top: 150px;
     margin-bottom: 50px;
 }
@@ -88,4 +87,8 @@ body{
 #text{
     font-size: 72px;
     line-height: 0px;
+}
+footer p{
+    text-align: center;
+    font-weight: bold;
 }
